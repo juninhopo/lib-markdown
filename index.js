@@ -1,3 +1,5 @@
+const chalk = require('chalk')
+
 console.log('vamos comecar!')
 
 const paragrafo = 'texto retornado por uma funcao'

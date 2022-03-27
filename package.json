@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/juninhopo/lib-markdown/issues"
   },
-  "homepage": "https://github.com/juninhopo/lib-markdown#readme"
+  "homepage": "https://github.com/juninhopo/lib-markdown#readme",
+  "dependencies": {
+    "chalk": "^5.0.1"
+  }
 }

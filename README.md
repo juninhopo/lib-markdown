@@ -1,5 +1,3 @@
-# lib-markdown
-
 # Biblioteca para extracao e verificação dos links de um Markdown.
 - Este script extrai os links de um arquivo MKD e realiza os testes de cada link pelo response code.
 

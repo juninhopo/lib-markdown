@@ -8,4 +8,6 @@
 - Iniciar a instalação das dependências:
 ```
 npm install
+
+node index.js
 ```

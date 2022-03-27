@@ -6,4 +6,6 @@
 ## Descrição
 
 - Iniciar a instalação das dependências:
-    - $npm install
+```
+npm install
+```

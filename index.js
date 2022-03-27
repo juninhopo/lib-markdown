@@ -1,11 +1,18 @@
 import chalk from 'chalk';
+import fs from 'fs'
 
-console.log(chalk.blue('vamos comecar!'))
-
-const paragrafo = 'texto retornado por uma funcao'
-
-function texto(string) {
-  return string
+function trataErro(erro) {
+  throw new Error(chalk.red(erro.code, 'Caminho Invalido'))
 }
 
-console.log(texto(paragrafo))
+function pegaArquivo(caminhoDoArquivo) {
+  const encoding = 'utf8'
+  fs.readFile(caminhoDoArquivo, encoding, (erro, texto) => {
+    if (erro) {
+      trataErro(erro)
+    }
+    console.log(chalk.green(texto))
+  })
+}
+
+pegaArquivo('./arquivos/texto1.md')

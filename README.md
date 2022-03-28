@@ -7,6 +7,9 @@
 - Iniciar a instalação das dependências:
 ```
 npm install
+```
+- Iniciar o script:
 
+```
 npm start
 ```

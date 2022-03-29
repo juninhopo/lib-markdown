@@ -1,4 +1,4 @@
-# Biblioteca para verificação dos links de um arquivo Markdown.
+# Health Check dos links de um Markdown.
 - Este script extrai os links de um arquivo MKD e realiza os testes de cada link pelo response code.
 
 
@@ -8,8 +8,8 @@
 ```
 npm install
 ```
-- Iniciar o script:
+- Verificar os links do Markdown:
 
 ```
-npm start
+npm run cli
 ```

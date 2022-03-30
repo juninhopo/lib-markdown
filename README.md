@@ -8,8 +8,14 @@
 ```
 npm install
 ```
-- Verificar os links do Markdown:
+- Puxar os links do Markdown:
 
 ```
 npm run cli
+```
+
+- Validar os links:
+
+```
+yarn cli validar
 ```

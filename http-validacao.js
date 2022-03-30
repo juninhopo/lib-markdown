@@ -1,9 +1,11 @@
 import fetch from 'node-fetch';
 
 async function checaStatus(arrayUrls) {
-    const arrayStatus = await Promise.all(arrayUrls.map(async url => {
-        const res = await fetch(url);
-        return res.status;
+    const arrayStatus = await Promise
+        .all(arrayUrls
+            .map(async url => {
+                const res = await fetch(url);
+                return res.status;
     }))
     return arrayStatus;
 }

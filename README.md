@@ -1,20 +1,20 @@
-# Health Check dos links de um Markdown.
-- Este script extrai os links de um arquivo MKD e realiza os testes de cada link pelo response code.
+# Health Check Links in Markdown Format
+- This script extracts the links from an MKD file and tests each link by the response code.
 
 
-## Descrição
+## Description
 
-- Iniciar a instalação das dependências:
+- Install Dependencies:
 ```
 npm install
 ```
-- Puxar os links do Markdown:
+- Check links in Markdown file:
 
 ```
 npm run cli
 ```
 
-- Validar os links:
+- Validate the links:
 
 ```
 npm run cli validar

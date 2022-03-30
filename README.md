@@ -1,4 +1,4 @@
-# Health Check Links in Markdown Format
+# Health Check links in markdown format
 - This script extracts the links from an MKD file and tests each link by the response code.
 
 

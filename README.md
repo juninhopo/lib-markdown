@@ -17,5 +17,5 @@ npm run cli
 - Validar os links:
 
 ```
-yarn cli validar
+npm run cli validar
 ```

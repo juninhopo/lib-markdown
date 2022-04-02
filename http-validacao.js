@@ -26,7 +26,7 @@ function geraArrayDeUrls(arrayLinks) {
             .values(objetoLink).join())
 }
 
-export default async function validaURLs(arrayLinks) {
+export async function validaURLs(arrayLinks) {
     const links = geraArrayDeUrls(arrayLinks);
     const statusLinks = await checaStatus(links);
 

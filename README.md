@@ -1,4 +1,4 @@
-# :hospital: Health Check links in markdown format :hospital:
+# hospital: Check links in markdown format
 - This script extracts the links from in markdown file and tests each link by the response code.
 
 
